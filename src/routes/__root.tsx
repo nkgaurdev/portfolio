@@ -82,6 +82,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Neeraj Kumar Gaur" },
       { name: "twitter:card", content: "summary" },
+      { title: "Neeraj Kumar Gaur | Software Engineer Portfolio" },
+      { property: "og:title", content: "Neeraj Kumar Gaur | Software Engineer Portfolio" },
+      { name: "twitter:title", content: "Neeraj Kumar Gaur | Software Engineer Portfolio" },
+      { name: "description", content: "Final-year Computer Science student passionate about Software Engineering, Python, Full-Stack Development, AI, and Problem Solving. Explore my projects, interns" },
+      { property: "og:description", content: "Final-year Computer Science student passionate about Software Engineering, Python, Full-Stack Development, AI, and Problem Solving. Explore my projects, interns" },
+      { name: "twitter:description", content: "Final-year Computer Science student passionate about Software Engineering, Python, Full-Stack Development, AI, and Problem Solving. Explore my projects, interns" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fe8aa0a6-266b-43ae-9fb9-53bb3447735d/id-preview-5f943c5b--4e75c1db-3da1-4b3d-9ef8-cfaf334c2357.lovable.app-1781591593461.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fe8aa0a6-266b-43ae-9fb9-53bb3447735d/id-preview-5f943c5b--4e75c1db-3da1-4b3d-9ef8-cfaf334c2357.lovable.app-1781591593461.png" },
     ],
     links: [
       {
